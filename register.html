@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style barangay community website">
+  <title>Register | Barangay Pugay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo2.jpg" alt="Barangay Pugay logo" width="46" height="46">
+      <span>Barangay Pugay</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <h1>Register</h1>
+    <p>Send your information through the registration form below.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="content-box">
+        <h2>Registration Form</h2>
+        <p class="form-note">Please provide the required information to complete your registration.</p>
+        <form id="registrationForm" action="thankyou.html" method="get">
+          <div class="form-grid">
+            <div class="form-group full">
+              <label for="fullName">Full Name</label>
+              <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input id="password" name="password" type="password" minlength="6" placeholder="At least 6 characters" required>
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input id="age" name="age" type="number" min="1" max="120" placeholder="Your age" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" placeholder="09XX XXX XXXX">
+            </div>
+
+            <div class="form-group full">
+              <label for="address">Address</label>
+              <input id="address" name="address" type="text" placeholder="House/Street, Barangay, Municipality" required>
+            </div>
+
+            <div class="form-group full">
+              <label for="message">Additional Details / Message</label>
+              <textarea id="message" name="message" placeholder="Enter any additional information here..."></textarea>
+            </div>
+
+            <div class="form-group full">
+              <button class="button" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Barangay Pugay</strong></p>
+  <p>&copy; <span id="year"></span> Barangay Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

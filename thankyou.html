@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style barangay community website">
+  <title>Thank You | Barangay Pugay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo2.jpg" alt="Barangay Pugay Logo" width="46" height="46">
+      <span>Barangay Pugay</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="thank-you">
+  <section class="thank-you-card">
+    <div class="checkmark">✓</div>
+    <h1>Thank you for your input!</h1>
+    <p>Thank you for providing your information. Your registration
+      details have been received and recorded successfully.</p>
+    <a class="button" href="index.html">Return to Home</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Barangay Pugay</strong></p>
+  <p>&copy; <span id="year"></span> Barangay Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

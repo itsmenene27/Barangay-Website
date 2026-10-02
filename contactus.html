@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style barangay community website">
+  <title>Contact Us | Barangay Pugay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo2.jpg" alt="Barangay Pugay logo" width="46" height="46">
+      <span>Barangay Pugay</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <h1>Contact Us</h1>
+    <p>We’re here to help. Feel free to contact us for any questions or concerns.</p>
+  </section>
+
+  <section class="section">
+    <div class="container two-column contact-layout">
+      <article class="content-box">
+        <h2>Barangay Contact Information</h2>
+        <ul class="contact-list">
+          <li><strong>Barangay Hall:</strong> Barangay Pugay</li>
+          <li><strong>Address:</strong> Zone 1, Pugay, San Jose, Camarines Sur, Philippines</li>
+          <li><strong>Telephone:</strong> (000) 123-4567</li>
+          <li><strong>Cellphone Number:</strong> +63 912 345 6789</li>
+          <li><strong>Email:</strong> pugaysj@gmail.com</li>
+          <li><strong>Office Hours:</strong> Monday–Friday, 8:00 AM–5:00 PM</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Barangay Pugay</strong></p>
+  <p>&copy; <span id="year"></span> Barangay Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

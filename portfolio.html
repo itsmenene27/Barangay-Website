@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style barangay community website">
+  <title>Portfolio | Barangay Pugay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo2.jpg" alt="Barangay Pugay logo" width="46" height="46">
+      <span>Barangay Pugay</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <h1>Barangay Portfolio</h1>
+    <p>Photos and highlights from our community.</p>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="gallery">
+        <figure>
+          <img src="image5.jpg" alt="Scenic view of the community and water">
+          <figcaption>Project Basa</figcaption>
+          <p>Project BASA is a learning program that helps children develop
+             their reading skills through fun and engaging activities.</p>
+        </figure>
+        <figure>
+          <img src="image9.jpg" alt="Landscape with mountains and cloudy sky">
+          <figcaption>Sangguniang Kabataan Meeting</figcaption>
+          <p>SK Meetings are gatherings of Sangguniang Kabataan officials to discuss plans, projects,
+            and future activities for the development and benefit of the barangay youth.</p>
+        </figure>
+        <figure>
+          <img src="image8.jpg" alt="Green trees beside a scenic waterfront">
+          <figcaption>Clean and Green Program</figcaption>
+          <p>The Clean and Green Program promotes environmental awareness and sustainability in the
+            barangay through community clean-up drives, tree planting, and proper waste management.</p>
+        </figure>
+        <figure>
+          <img src="image6.jpg" alt="Waterfront landscape">
+          <figcaption>Traditional Games</figcaption>
+          <p>Traditional games are an integral part of our cultural heritage,
+            bringing joy and unity to the community especially during fiesta.</p>
+        </figure>
+        <figure>
+          <img src="image4.jpg" alt="Island and water landscape">
+          <figcaption>Barangay Feeding Program</figcaption>
+          <p>The Barangay Feeding Program provides nutritious meals to children
+            in the community, ensuring their health and well-being.</p>
+        </figure>
+        <figure>
+          <img src="image3.jpg" alt="Scenic mountain and water view">
+          <figcaption>Peñafrancia Holy Mass</figcaption>
+          <p>The Peñafrancia Holy Mass is a significant religious event in the barangay,
+            drawing faithful from across the region to celebrate and give thanks.</p>
+        </figure>
+        <figure>
+          <img src="image2.jpg" alt="Scenic mountain and water view">
+          <figcaption>Barangay Basketball Team</figcaption>
+          <p>The Barangay Basketball Team represents the community in local
+            tournaments and promotes sportsmanship and teamwork.</p>
+        </figure>
+        <figure>
+          <img src="image1.jpg" alt="Scenic mountain and water view">
+          <figcaption>College Graduate Assistance</figcaption>
+          <p>The College Graduate Assistance program supports students in
+            their academic pursuits and helps them transition into the workforce.</p>
+        </figure>
+        <figure>
+          <img src="image7.jpg" alt="Scenic mountain and water view">
+          <figcaption>Barangay Youth Congress</figcaption>
+          <p>The Barangay Youth Congress is a platform for young people to voice their
+            concerns, participate in decision-making, and contribute to the development of the barangay.</p>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Barangay Pugay</strong></p>
+  <p>&copy; <span id="year"></span> Barangay Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

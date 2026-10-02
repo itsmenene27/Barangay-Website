@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style barangay community website">
+  <title>About Us | Barangay Pugay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo2.jpg" alt="Barangay Pugay logo" width="46" height="46">
+      <span>Barangay Pugay</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <h1>About Us</h1>
+    <p>Learn more about our barangay and its community.</p>
+  </section>
+  <section class="section">
+    <div class="container two-column">
+      <article class="content-box">
+        <h2>Our Vision</h2>
+          <p>Barangay Pugay is a primary rice producer barangay in San Jose with self-reliant and God-fearing residents,
+          ecologically-balanced environment, with infrastructures essential to human existence and demonstrating
+          competence, compassion and honesty in local public service.</p>
+          <img src="vision.jpg" alt="Scenic view of the community and water">
+      </article>
+      <article class="content-box">
+        <h2>Our Mission</h2>
+        <p>To provide quality education through the practice of honesty and dedication among its employees, officials,
+          by keeping the communal and cultural ties, and enhancing personal and professional growth, and by creating
+          an effective and collaborative teamwork projects for the welfare and development of the community.</p>
+          <img src="mission.jpg" alt="Scenic view of the community and water">
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>Barangay Pugay</strong></p>
+  <p>&copy; <span id="year"></span> Barangay Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
